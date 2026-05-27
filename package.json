@@ -29,15 +29,15 @@
     "liveness"
   ],
   "license": "MIT",
-  "author": "Your Name <you@example.com>",
+  "author": "Yuri Ramos <yurilima487@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/expo-unico.git"
+    "url": "https://github.com/YuriLima23/expo-unico"
   },
   "bugs": {
-    "url": "https://github.com/your-org/expo-unico/issues"
+    "url": "https://github.com/YuriLima23/expo-unico/issues"
   },
-  "homepage": "https://github.com/your-org/expo-unico#readme",
+  "homepage": "https://github.com/YuriLima23/expo-unico#readme",
   "peerDependencies": {
     "expo": ">=53.0.0",
     "react-native": "*"
