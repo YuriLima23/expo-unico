@@ -1,0 +1,49 @@
+{
+  "name": "expo-unico",
+  "version": "1.0.0",
+  "description": "Expo config plugin and native module for the Unico Check (selfie/biometrics) SDK on Android and iOS.",
+  "main": "src/index.ts",
+  "react-native": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "app.plugin.js",
+    "src",
+    "plugin/build",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --project plugin/tsconfig.json",
+    "clean": "rm -rf plugin/build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "expo",
+    "expo-plugin",
+    "config-plugin",
+    "react-native",
+    "unico",
+    "unico-check",
+    "selfie",
+    "biometrics",
+    "liveness"
+  ],
+  "license": "MIT",
+  "author": "Your Name <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/expo-unico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/expo-unico/issues"
+  },
+  "homepage": "https://github.com/your-org/expo-unico#readme",
+  "peerDependencies": {
+    "expo": ">=53.0.0",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
